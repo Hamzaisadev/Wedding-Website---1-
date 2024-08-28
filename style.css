@@ -464,7 +464,7 @@ transparent;
   border-radius:50%; 
   background-color: #CDCDB6;
   position: relative;
-  bottom: 800px;
+  bottom: 700px;
   left: 1100px;
 }
 
@@ -476,7 +476,7 @@ transparent;
   flex-direction: column;
   position: relative;
   left: 450px;
-  bottom: 650px;
+  bottom: 550px;
   
 }
 
@@ -532,5 +532,255 @@ transparent;
 
 
 #page4{
-  height: 60svh;
+  height: 90vh;
+  background: linear-gradient(0deg, rgba(242,242,242,1) 31%, rgba(205,205,182,1) 31%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page4-wrapper{
+  /* background-color: red ; */
+  width: 70%; 
+  height: 98%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  bottom: 50px;
+  text-align: center;
+  top: 20px;
+}
+
+#page4-wrapper h3{
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 30px;
+
+}
+
+
+#page4-wrapper p{
+  margin-bottom: 30px;
+
+}
+
+#page4-wrapper h2{
+  width: 200px;
+  height: 50px;
+  align-content: center;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 800;
+  background-color: #FFFFFF;
+  color: #9b9b87;
+  border: 3px solid #CDCDB6;
+  border-radius: 10px;
+  margin: 20px;  
+}
+#page4-wrapper h2:hover{
+  width: 200px;
+  height: 50px;
+  align-content: center;
+  font-size: 1em;
+  font-weight: 800;
+  background-color: #CDCDB6;
+  color: #ffffff;
+  border: 3px solid #CDCDB6;
+  border-radius: 10px;
+  
+}
+
+
+
+
+#p4-detail-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.p4-card{
+  text-align: center;
+  height: 475px;
+  padding: 50px;
+  margin: 20px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  width: 280px;
+}
+.card-img{
+  background-color: #5E966D;
+  border-radius: 50%;
+  height: 300px;
+  width:300px;
+  position: relative;
+  background-size: cover;
+  bottom: 20px;
+  right: 9px;
+
+}
+
+
+
+
+#card-img1{
+  background-image: url(/img4.jpg);
+
+}
+#card-img2{
+  background-image: url(/img8.jpg);
+
+}
+#card-img3{
+  background-image: url(/img9.jpg);
+}
+
+
+#p4-detail-container h5{
+  font-size: 20px;
+  margin-top: 9px;
+  font-weight: 500;
+
+} 
+
+#p4-detail-container p{
+  line-height: 2;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 25px;
+} 
+
+#page5{
+height: 180vh;
+width: 100%;
+/* background-color: red; */
+
+}
+
+
+#page5-wrapper{
+/* background-color: blue; */
+width: 100%;
+height: inherit;
+
+}
+
+#p5-elem1{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  position: relative;
+  background-image: url(/img10.jpg);
+  background-position: 50% 50%;
+  background-color: #5E966D;
+  background-size: cover;
+  top: 90px;
+  left: 850px;
+}
+#p5-elem2{
+  
+  height: 200px;
+  width : 200px;
+  border-radius:50%; 
+  background-color: #CDCDB6;
+  position: relative;
+  left: 550px;
+  
+}
+#p5-elem3{
+  height: 90px;
+  width : 90px;
+  border-radius:50%; 
+  border: 20px solid #CDCDB6 ;
+  background-color: #fcfcfc;
+  position: relative;
+  left: 900px;
+  bottom: -10px;
+
+  
+}
+
+#p5-elem4{
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  position: relative;
+  background-image: url(/img11.jpg);
+  background-position: 50% 50%;
+  background-color: #5E966D;
+  background-size: cover;
+  bottom: 250px;
+  left: 1100px;
+}
+
+
+#p5-elem5{
+  width: 750px;
+  height: 750px;
+  border-radius: 50%;
+  position: relative;
+  background-image: url(/img12.jpg);
+  background-position: 50% 50%;
+  background-color: #5E966D;
+  background-size: cover;
+  bottom: 400px;
+  left: 400px;
+}
+#p5-elem6{
+  background-color: #FFFFFF;
+  border-radius: 60px;
+  width: 550px;
+  height: 355px;
+  position: relative;
+  text-align: left;
+  padding: 1%;  
+  padding-left: 4%;
+  bottom: 600px;
+  left: 775px;
+}
+
+#p5-elem6 h3{
+  margin-top: 90px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 400;
+}
+#p5-elem6 p{
+  font-size: 18px;
+  line-height: 2;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+#p5-elem6 h2{
+  width: 200px;
+  height: 50px;
+  align-content: center;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 800;
+  background-color: #FFFFFF;
+  color: #9b9b87;
+  border: 3px solid #CDCDB6;
+  border-radius: 10px;
+  margin: 20px;  
+}
+#p5-elem6 h2:hover{
+  width: 200px;
+  height: 50px;
+  align-content: center;
+  font-size: 1em;
+  font-weight: 800;
+  background-color: #CDCDB6;
+  color: #ffffff;
+  border: 3px solid #CDCDB6;
+  border-radius: 10px;
+  
+}
+
+#page6{
+  height: 100vh;
+  background-color: #5E966D;
 }
